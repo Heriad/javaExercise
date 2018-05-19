@@ -1,11 +1,15 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
+import java.lang.Math;
+import java.io.IOException;
 
 public class Zadanie5{
-	public static void main(String args[]){
+	public static void main(String args[]) throws IOException, InterruptedException{
 		
 		System.out.print("Podaj długość promienia: ");
 		Scanner promien = new Scanner(System.in);
 		double r = promien.nextFloat();
+		
+		new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
 		
 		if(r > 0)
 		{
