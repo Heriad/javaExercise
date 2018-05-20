@@ -17,5 +17,5 @@ public class Zadanie3{
 		{
 			System.out.print("Podana liczba nie jest rozwiązaniem równania x^3 - 5x + 4 = 0");
 		}
-}
+	}
 }

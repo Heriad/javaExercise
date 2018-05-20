@@ -20,7 +20,5 @@ public class Zadanie1{
 		{
 			System.out.print("Wprowadzona liczba n jest niepoprawna");
 		}
-		
-		
 	}
 }

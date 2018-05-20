@@ -38,5 +38,5 @@ public class Zadanie4{
 		{
 			System.out.println("Wprowadzone dane nie są prawidłowe!");
 		}	
-}
+	}
 }

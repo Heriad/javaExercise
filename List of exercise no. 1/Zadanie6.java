@@ -33,5 +33,5 @@ public class Zadanie6{
 		{
 			System.out.print("Wprowadzone błędne dane!");
 		}
-}
+	}
 }

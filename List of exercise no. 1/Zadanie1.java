@@ -14,5 +14,5 @@ public class Zadanie1{
 		
 		System.out.println("Kwadrat liczby wynosi: "+a_kwad);
 		System.out.println("Sześcian liczby wynosi: "+a_szesc);
-}
+	}
 }

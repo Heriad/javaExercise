@@ -47,5 +47,5 @@ public class Zadanie7{
 				System.out.println("x2 wynosi: "+x2+"i");
 			}
 		}
-}
+	}
 }

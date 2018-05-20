@@ -15,5 +15,5 @@ public class Zadanie2{
 		{
 			System.out.print("Wprowadzona liczba nie jest podzielna przez 4");
 		}
-}
+	}
 }

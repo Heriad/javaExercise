@@ -25,5 +25,5 @@ public class Zadanie5{
 		{
 			System.out.println("Długość promienia nie może być ujemna!");
 		}
-}
+	}
 }
