@@ -10,7 +10,7 @@ public class Zadanie1{
 		{
 		    suma += a;
 		    System.out.println("a"+i+": "+a);
-			a += 9;
+		    a += 9;
 		}
 		System.out.print("Suma wynosi: "+suma);
 	}
