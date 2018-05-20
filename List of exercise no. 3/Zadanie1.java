@@ -8,8 +8,8 @@ public class Zadanie1{
 		
 		for(int i = 1; a < 2000; i++)
 		{
+			System.out.println("a"+i+": "+a);
 		    suma += a;
-		    System.out.println("a"+i+": "+a);
 			a += 9;
 		}
 		System.out.print("Suma wynosi: "+suma);
