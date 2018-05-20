@@ -8,9 +8,9 @@ public class Zadanie2{
 		
 		for(int i = 1; a > -30; i++)
 		{
-			System.out.println("a"+i+": "+a);
+		    System.out.println("a"+i+": "+a);
 		    sum_iloczyn *= a;
-			a -= 6;
+		    a -= 6;
 		}
 		System.out.print("Iloczyn wynosi: "+sum_iloczyn);
 	}
