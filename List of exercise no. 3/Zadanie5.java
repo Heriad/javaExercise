@@ -21,7 +21,7 @@ public class Zadanie3{
 			for(int i = 0; i < tab2.length; i++)
 			{
 				Random losowa = new Random();
-				int los = losowa.nextInt(48)+1;
+				int los = losowa.nextInt(49)+1;
 				tab2[i] = tab[los];
 			}
 			
