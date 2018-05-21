@@ -11,7 +11,7 @@ public class Zadanie7_4{
 		Scanner liczba = new Scanner(System.in);
 		int n = liczba.nextInt();
 	
-		List<Object> lista = new LinkedList<Object>();
+		List<Float> lista = new LinkedList<Float>();
 		Random los = new Random();
 		
 		int low = 1;
@@ -20,7 +20,7 @@ public class Zadanie7_4{
 		
 		for(int i = 1; i <= n; i++)
 		{
-			int result = los.nextInt(high-low) + low;
+			float result = los.nextInt(high-low) + low;
 			lista.add(result);
 			wynik += result;
 			
@@ -36,5 +36,20 @@ public class Zadanie7_4{
 		
 		Collections.sort(lista);
 		System.out.println(lista);
+		
+		float mediana = 0;
+		
+		if(lista.size() % 2 != 0)
+		{
+		    int index = lista.size()/2;
+		    mediana = (float)lista.get(index);
+		}
+		else if(lista.size() % 2 == 0)
+		{
+		    int index1 = (lista.size()/2)-1;
+		    int index2 = (lista.size()/2);
+		    mediana = (float)(lista.get(index1) + (float)lista.get(index2))/2;
+		}
+		System.out.println("Mediana wynosi: "+mediana);
 }
 }
